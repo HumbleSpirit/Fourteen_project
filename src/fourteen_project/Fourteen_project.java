@@ -24,15 +24,15 @@ public class Fourteen_project {
     public static void main(String[] args) {
         // TODO code application logic here
         Book book1 = new Book("Leo Tolstoy", "War and Pease", 1869);
-        myPrint(book1);
+        myPrint(book1); // Вызов метода класса майн
         
-        IPrintable ip1 = new Book();
-        IPrintable ip2 = new Magazine();
-        myPrint(new Book());
+        IPrintable ip1 = new Book(); //Вызов метода интерфейса
+        IPrintable ip2 = new Magazine(); //Вызов метода интерфейса
+        myPrint(new Book()); 
         myPrint(new Magazine());
         
-        book1.Print2();
-        IPrintable2.Print3();
+        book1.Print2(); // Вызов метода интерфейса по умолчанию
+        IPrintable2.Print3(); // Вызов статического метода интерфейса
         
         
         
