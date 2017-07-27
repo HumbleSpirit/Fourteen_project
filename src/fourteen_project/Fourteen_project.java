@@ -23,13 +23,16 @@ public class Fourteen_project {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Book book = new Book("Leo", "War and Pease", 1869);
-        myPrint(book);
+        Book book1 = new Book("Leo Tolstoy", "War and Pease", 1869);
+        myPrint(book1);
         
         IPrintable ip1 = new Book();
         IPrintable ip2 = new Magazine();
         myPrint(new Book());
         myPrint(new Magazine());
+        
+        book1.Print2();
+        IPrintable2.Print3();
         
         
         
