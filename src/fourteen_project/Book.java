@@ -9,7 +9,7 @@ package fourteen_project;
  *
  * @author Boro_s99
  */
-public class Book implements IPrintable{
+public class Book implements IPrintable, IPrintable2{
     
     String name;
     String author;
@@ -33,9 +33,8 @@ public class Book implements IPrintable{
     {
         System.out.println(name +" "+ author +" "+ year);
     }
-
-
     
-           
+    
+     
     
 }
