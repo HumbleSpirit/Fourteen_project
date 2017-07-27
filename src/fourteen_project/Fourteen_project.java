@@ -11,6 +11,11 @@ package fourteen_project;
  */
 public class Fourteen_project {
 
+    static void myPrint(IPrintable p) //p -  интерфейсная ссылка
+    {
+        p.Print();
+    }
+    
     /**
      * @param args the command line arguments
      */
