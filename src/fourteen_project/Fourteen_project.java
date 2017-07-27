@@ -31,6 +31,7 @@ public class Fourteen_project {
         myPrint(new Book()); 
         myPrint(new Magazine());
         
+        
         book1.Print2(); // Вызов метода интерфейса по умолчанию
         IPrintable2.Print3(); // Вызов статического метода интерфейса
         
